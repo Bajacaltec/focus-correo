@@ -13,3 +13,7 @@ def load_lottieurl(url: str):
     return r.json()
 gracias=load_lottieurl('https://assets2.lottiefiles.com/packages/lf20_vzy3decs.json')
 st_lottie(gracias,height=250)
+
+#Volver
+st.subheader('Volver a la pagina principal')
+st.markdown('http://localhost:8501')
