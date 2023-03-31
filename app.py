@@ -12,4 +12,4 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 gracias=load_lottieurl('https://assets2.lottiefiles.com/packages/lf20_vzy3decs.json')
-st_lottie(gracias,height=300)
+st_lottie(gracias,height=250)
